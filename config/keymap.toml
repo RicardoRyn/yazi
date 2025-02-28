@@ -5,8 +5,9 @@
 [manager]
 
 prepend_keymap = [
-	{ on = "<Enter>", run = "enter",               desc = "Enter the child directory" },
-  { on   = "e",     run  = 'shell "nu" --block', desc = "Open shell here" },
+	{ on = "<Enter>", run = "enter",                           desc = "Enter the child directory" },
+  { on   = "e",     run  = 'shell "nu" --block',             desc = "Open shell here" },
+  { on   = "T",     run  = "plugin toggle-pane min-preview", desc = "Show or hide the preview pane" },
 ]
 
 keymap = [

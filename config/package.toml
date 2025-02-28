@@ -4,9 +4,9 @@ rev = "5186af7"
 hash = "206e2448171dad0bda0a3cdece4ee8f5"
 
 [[plugin.deps]]
-use = "wekauwau/smart-tab"
-rev = "16d2911"
-hash = "67064413f2865e9434a070e684432330"
+use = "yazi-rs/plugins:toggle-pane"
+rev = "5186af7"
+hash = "98dfe8fd31e195ea3dc1a16d2d56941e"
 
 [flavor]
 deps = []
