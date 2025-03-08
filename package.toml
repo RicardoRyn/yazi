@@ -33,10 +33,5 @@ use = "GianniBYoung/rsync"
 rev = "3f431aa"
 hash = "1854a5a30d23e84bc8df24700f27957b"
 
-[[plugin.deps]]
-use = "AnirudhG07/rich-preview"
-rev = "2559e5f"
-hash = "c9a3d0731e7d7340e2c6d6126b1f3aa3"
-
 [flavor]
 deps = []
