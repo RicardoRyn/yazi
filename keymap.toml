@@ -11,7 +11,13 @@ prepend_keymap = [
   { on   = "T",     run = "plugin toggle-pane min-preview", desc = "Show or hide the preview pane" },
   { on   = "q",     run = "plugin confirm-quit" },
   { on   = "2",     run = "plugin smart-switch 1", desc = "Switch or create tab 2" },
-  # { on   = "y",     run = [ 'shell -- for path in "$@"; do echo "file://$path"; done | wl-copy -t text/uri-list', "yank" ] },
+  { on   = "M",     run = "plugin mount", desc = "Mount" },
+  { on   = [ "c","m" ],     run = "plugin chmod", desc = "Chmod on selected files" },
+  { on   = "y",     run = [ 'shell -- echo "$@" | xclip -i -selection clipboard -t text/uri-list', "yank" ] },
+  { on   = "<C-f>",     run = "seek 5" },
+  { on   = "<C-b>",     run = "seek -5" },
+  # { on   = "<C-d>",     run = "plugin diff", desc = "Diff the selected with the hovered file" },
+  # { on   = "R",     run = "plugin rsync -args='ruanjx@192.168.22.171:RJX'", desc = "Copy files using rsync" },
 ]
 
 keymap = [
