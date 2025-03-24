@@ -16,8 +16,6 @@ prepend_keymap = [
   { on   = "y",     run = [ 'shell -- echo "$@" | xclip -i -selection clipboard -t text/uri-list', "yank" ] },
   { on   = "<C-f>",     run = "seek 5" },
   { on   = "<C-b>",     run = "seek -5" },
-  # { on   = "<C-d>",     run = "plugin diff", desc = "Diff the selected with the hovered file" },
-  # { on   = "R",     run = "plugin rsync -args='ruanjx@192.168.22.171:RJX'", desc = "Copy files using rsync" },
 ]
 
 keymap = [
