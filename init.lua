@@ -10,6 +10,8 @@ Status:children_add(function(self)
 	end
 end, 3300, Status.LEFT)
 -- cross instance yank
-require("session"):setup {
+require("session"):setup({
 	sync_yanked = true,
-}
+})
+-- close the preview panel when open yazi
+require("toggle-pane"):entry("min-preview")

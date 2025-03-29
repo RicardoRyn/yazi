@@ -14,11 +14,6 @@ rev = "ceb053f"
 hash = "2f1053f89d1a301a648ab181d0948e38"
 
 [[plugin.deps]]
-use = "yazi-rs/plugins:diff"
-rev = "ceb053f"
-hash = "7a08e303167d5b655c06da6d570f0333"
-
-[[plugin.deps]]
 use = "yazi-rs/plugins:git"
 rev = "ceb053f"
 hash = "bcbf72738d4b7fb9a03cac84465b9ba4"
@@ -33,5 +28,27 @@ use = "GianniBYoung/rsync"
 rev = "3f431aa"
 hash = "1854a5a30d23e84bc8df24700f27957b"
 
-[flavor]
-deps = []
+[[plugin.deps]]
+use = "pirafrank/what-size"
+rev = "b23e3a4"
+hash = "e894fbfcc60c062e8479a928d19c208b"
+
+[[plugin.deps]]
+use = "Rolv-Apneseth/starship"
+rev = "6c639b4"
+hash = "f0aaa1fffa27f0747a378fe161e17259"
+
+[[flavor.deps]]
+use = "yazi-rs/flavors:catppuccin-mocha"
+rev = "b929df6"
+hash = "800799d6ab64ece50a4e516641b96fa0"
+
+[[flavor.deps]]
+use = "bennyyip/gruvbox-dark"
+rev = "b4cc9f2"
+hash = "bef64c9478257cae6a108368979a901a"
+
+[[flavor.deps]]
+use = "BennyOe/tokyo-night"
+rev = "695dac6"
+hash = "f0f5c785422a8551adabbdffab5c63b5"
