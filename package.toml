@@ -38,5 +38,7 @@ use = "AnirudhG07/rich-preview"
 rev = "2559e5f"
 hash = "c9a3d0731e7d7340e2c6d6126b1f3aa3"
 
-[flavor]
-deps = []
+[[flavor.deps]]
+use = "yazi-rs/flavors:catppuccin-latte"
+rev = "68326b4"
+hash = "5dffea1e87c50b18b8bb1599f6d4881a"
